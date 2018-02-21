@@ -1,0 +1,19 @@
+{
+  "name": "browser-tdd",
+  "version": "1.0.0",
+  "description": "example project showing unit tests for a browser framework",
+  "author": "joewright",
+  "license": "ISC",
+  "dependencies": {
+    "jsdom": "^11.6.2",
+    "jsdom-global": "^3.0.2",
+    "mocha": "5.0.1"
+  },
+  "engines": {
+    "node": "9.5.x"
+  },
+  "scripts": {
+    "test": "mocha tests/**/*_tests.js",
+    "dev": "mocha tests --watch"
+  }
+}

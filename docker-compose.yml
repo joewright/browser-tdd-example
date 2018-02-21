@@ -1,0 +1,7 @@
+version: "3"
+services:
+  console: 
+    build: .
+    command: tail -f /dev/null
+    volumes: 
+      - ./:/usr/src/app
